@@ -3,6 +3,6 @@ class PostsController < ApplicationController
 	end
 	
 	def create
-	render text: params[:posts].inspect
+		render text: params[:post].inspect
 	end
 end
